@@ -245,11 +245,12 @@ body {
 }
 
 #hero {
-  margin: 35px 15px;
+  margin: 105px 15px 35px;
    overflow-x: auto;
    display: flex;
    justify-content: flex-start;
    align-items: center;
+   position:relative;
 }
 
 #hero img {
@@ -504,7 +505,7 @@ background-color: #F3F3F3;
    }
 
    #hero {
-    margin: 35px auto;
+     margin: 110px auto 35px;
      overflow-x: none;
      width: 95%;
      display: flex;
@@ -608,6 +609,10 @@ background-color: #F3F3F3;
   .nav-button a {
     color: grey;
 
+  }
+
+  #hero {
+    margin: 110px 15px 35px;
   }
 
   .content {
